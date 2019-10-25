@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".RegistrationActivity">
+
+    <com.libizo.CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter your name"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:paddingTop="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="12dp"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        app:libIZO_clearIconTint="@color/colorAccent"
+        app:libIZO_hideShowPasswordIconTint="#085808"
+        app:libIZO_setBorderColor="#d4d2d3"
+        app:libIZO_setBorderView="true"
+        app:libIZO_setClearIconVisible="true"
+        app:libIZO_setCornerRadius="20dp"
+        app:libIZO_setFont="@string/robotoRegular" />
+
+
+    <com.libizo.CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:paddingTop="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="12dp"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        app:libIZO_clearIconTint="@color/colorAccent"
+        app:libIZO_hideShowPasswordIconTint="#085808"
+        app:libIZO_setBorderColor="#d4d2d3"
+        app:libIZO_setBorderView="true"
+        app:libIZO_setClearIconVisible="true"
+        app:libIZO_setCornerRadius="20dp"
+        app:libIZO_setFont="@string/robotoRegular" />
+
+
+
+    <com.libizo.CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:paddingTop="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="12dp"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        app:libIZO_clearIconTint="@color/colorAccent"
+        app:libIZO_hideShowPasswordIconTint="#085808"
+        app:libIZO_setBorderColor="#d4d2d3"
+        app:libIZO_setBorderView="true"
+        app:libIZO_setClearIconVisible="true"
+        app:libIZO_setCornerRadius="20dp"
+        app:libIZO_setFont="@string/robotoRegular" />
+
+</LinearLayout>
